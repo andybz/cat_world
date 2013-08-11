@@ -3,7 +3,7 @@ CatWorld::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :cats, only: :index
+      resources :cats, only: [:index, :create]
     end
   end
 end

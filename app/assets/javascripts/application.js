@@ -19,4 +19,13 @@
 //= require cat_world
 CatWorld = Ember.Application.create();
 
+CatWorld.breeds = {
+  selected: null,
+  content: [
+    "Domestic Shorthair",
+    "Persian",
+    "Mang Koon"
+  ]
+}
+
 //= require_tree .

@@ -1,2 +1,3 @@
 CatWorld.Router.map (match)->
-  @resource('cats')
+  @resource 'cats', ->
+    @route 'new'
