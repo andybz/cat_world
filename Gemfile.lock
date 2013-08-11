@@ -76,6 +76,7 @@ GEM
     eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    fabrication (2.7.2)
     faye-websocket (0.4.7)
       eventmachine (>= 0.12.0)
     gherkin (2.12.1)
@@ -184,6 +185,7 @@ DEPENDENCIES
   decent_exposure
   ember-rails
   ember-source (= 1.0.0.rc6.4)
+  fabrication
   haml-rails
   jquery-rails
   launchy

@@ -19,6 +19,7 @@ group :doc do
 end
 
 group :test, :development do
+  gem 'fabrication'
   gem 'rspec-rails'
   gem 'cucumber-rails'
   gem 'database_cleaner'

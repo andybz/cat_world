@@ -5,9 +5,12 @@ development:
   database: cat_world_development
   pool: 5
 
-test:
+test: &test
   adapter: postgresql
   host: localhost
   encoding: unicode
   database: cat_world_test
   pool: 5
+
+cucumber:
+  <<: *test
