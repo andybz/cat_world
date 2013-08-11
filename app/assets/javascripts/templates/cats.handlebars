@@ -1,0 +1,25 @@
+<h2>Cats</h2>
+
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Breed</th>
+  </thead>
+  <tbody>
+  {{#each controller}}
+    <tr>
+      <td>
+        {{ name }}
+      </td>
+      <td>
+        {{ gender }}
+      </td>
+      <td>
+        {{ breed }}
+      </td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
+

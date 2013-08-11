@@ -1,0 +1,2 @@
+Fabricator :cat do
+end
