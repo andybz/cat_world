@@ -172,6 +172,7 @@ DEPENDENCIES
   database_cleaner
   decent_exposure
   ember-rails
+  ember-source (= 1.0.0.rc6.4)
   haml-rails
   jquery-rails
   launchy
