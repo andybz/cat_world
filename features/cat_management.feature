@@ -1,5 +1,5 @@
 @javascript
-Feature: Views list of cats
+Feature: Cat management
 
   Scenario: Viewing list of cats
     Given the following cats:
