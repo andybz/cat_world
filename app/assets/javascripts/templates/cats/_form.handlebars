@@ -1,0 +1,25 @@
+<p>
+  <label for="name">Name</label>
+  {{ view Ember.TextField valueBinding='name' id="name" }}
+</p>
+
+Gender
+<p>
+  <label>
+    {{ view CatWorld.RadioButton name="genderSelection"
+    selectionBinding="gender" value="Male" id="Male" }}
+    Male
+  <label>
+
+  <label>
+    {{ view CatWorld.RadioButton name="genderSelection"
+    selectionBinding="gender" value="Female" id="Female" }}
+    Female
+  <label>
+</p>
+
+<p>
+  <label for="breed">Breed</label>
+  {{ view Ember.Select contentBinding="CatWorld.breeds.content"
+  selectionBinding="breed" valueBinding="CatWorld.breeds.selected" prompt="Choose a breed" id="breed" }}
+</p>

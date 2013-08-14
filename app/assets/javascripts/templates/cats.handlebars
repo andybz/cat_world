@@ -12,7 +12,7 @@
   {{#each controller}}
     <tr>
       <td>
-        {{ name }}
+        {{#linkTo 'cats.edit' this}}{{ name }}{{/linkTo}}
       </td>
       <td>
         {{ gender }}

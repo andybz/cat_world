@@ -5,3 +5,9 @@ CatWorld.CatsNewController = Ember.Controller.extend
       breed: @get('breed')
       gender: @get('gender')
     cat.save()
+    @clearValues()
+
+  clearValues: ->
+    @set('name', '')
+    @set('breed', '')
+    @set('gender', null)
